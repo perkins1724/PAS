@@ -273,7 +273,7 @@ fi
 fi
 # Printing the results:
 MSG="$STATE - I/O stats: Transfers/Sec=$tps Read Requests/Sec=$read_sec Write Requests/Sec=$written_sec KBytes Read/Sec=$kbytes_read_sec KBytes_Written/Sec=$kbytes_written_sec"
-PERFDATA=" | total_io_sec'=$tps;$warn_1;$crit_1; read_io_sec=$read_sec;$warn_2;$crit_2; write_io_sec=$written_sec;$warn_3;$crit_3; kbytes_read_sec=$kbytes_read_sec;$warn_4;$crit_4; kbytes_written_sec=$kbytes_written_sec;$warn_5;$crit_5;"
+PERFDATA=" | total_io_sec=$tps;$warn_1;$crit_1; read_io_sec=$read_sec;$warn_2;$crit_2; write_io_sec=$written_sec;$warn_3;$crit_3; kbytes_read_sec=$kbytes_read_sec;$warn_4;$crit_4; kbytes_written_sec=$kbytes_written_sec;$warn_5;$crit_5;"
 fi
 
 #------------IO Test End-------------
