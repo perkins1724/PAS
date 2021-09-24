@@ -305,7 +305,7 @@ fi
 
 # Printing the results:
 MSG="$STATE - Disk Queue Stats: Average Queue Length=$qlength, Average Read Size=$qread_size kilobytes, Average Write Size=$qwrite_size kilobytes"
-PERFDATA=" | qlength=$qlength;$warn_1;$crit_1; read_size=$qread_size;$warn_2;$crit_2; read_size=$qwrite_size;$warn_3;$crit_3;"
+PERFDATA=" | qlength=$qlength;$warn_1;$crit_1; read_size=$qread_size;$warn_2;$crit_2; write_size=$qwrite_size;$warn_3;$crit_3;"
 fi
 
 #------------Queue Test End-------------
